@@ -14,7 +14,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 @NoArgsConstructor
 @Builder
 @Document(indexName = "movie")
-public class SearchProduct {
+public class SearchMovie {
 
     @Id
     @Field(name = "movieCd", type = FieldType.Integer)

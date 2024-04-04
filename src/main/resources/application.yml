@@ -1,1 +1,3 @@
-spring.application.name=Elasticsearch_Exam
+spring:
+  elastic:
+    url: localhost:9200
